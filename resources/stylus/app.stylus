@@ -5,6 +5,8 @@
 
 .main_div
     position relative
+    left 45px
+    top 60px
     height 900px
     lost-center 1344px
     background-image:url("../assets/jenktrim.png")

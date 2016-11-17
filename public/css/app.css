@@ -18,6 +18,8 @@
 }
 .main_div {
   position: relative;
+  left: 45px;
+  top: 60px;
   height: 900px;
   max-width: 1344px;
   margin-left: auto;
