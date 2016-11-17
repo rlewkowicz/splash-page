@@ -1,0 +1,58 @@
+@lost flexbox no-flex
+
+.main_section
+    lost-column: 1
+
+.main_div
+    position relative
+    height 900px
+    lost-center 1344px
+    background-image:url("../assets/jenktrim.png")
+    background-repeat: no-repeat;
+    background-size: 62%
+    background-position: 50% 90%
+    background-attachment: relative;
+
+.squarerow
+    lost-offset -1/15 column
+    lost-row 1/3
+
+.squarecolumn
+    lost-offset -1/40 column
+    lost-offset -5/12.27
+    lost-column 1.6/3.9
+    height 100%
+
+.griddiv
+    lost-waffle 2/8 0 0
+    height 50%
+    >.gridright
+       position relative
+       left 20 px
+       top 20 px
+    >.gridleft
+       position relative
+       left 25 px
+       top 20 px
+    >.gridleft:nth-of-type(2)
+        left -175 px
+
+.gridcore
+    outline: #3E5258 dotted
+
+
+.gridimage
+    top 3.2px
+    position relative
+    lost-center 90% 5%
+    height 90%
+
+
+.link
+    position absolute
+
+.link-jenkins
+    left -50px
+    top 350px
+    font-size:23px
+

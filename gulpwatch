@@ -1,0 +1,3 @@
+until gulp watch; do
+    sleep 1
+done
