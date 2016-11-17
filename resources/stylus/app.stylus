@@ -1,35 +1,48 @@
-@lost flexbox no-flex
+@lost flexbox flex
+
+html
+    height 100%
+    background: -webkit-linear-gradient(45deg, rgba(64,105,153,0.47) 0%,rgba(211,211,211,0.24) 50%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(45deg, rgba(64,105,153,0.47) 0%,rgba(211,211,211,0.24) 50%,rgba(255,255,255,0) 100%);
+    background-repeat: no-repeat;
+    min-width: 1344px;
+    min-height:1020px
 
 .main_section
     lost-column: 1
 
 .main_div
     position relative
-    left 45px
+    left 24px
     top 60px
     height 900px
     lost-center 1344px
     background-image:url("../assets/jenktrim.png")
     background-repeat: no-repeat;
-    background-size: 62%
-    background-position: 50% 90%
+    background-size: 828px
+    background-position: 223px 270px
     background-attachment: relative;
+
 
 .squarerow
     lost-offset -1/15 column
     lost-row 1/3
 
 .squarecolumn
-    lost-offset -1/40 column
-    lost-offset -5/12.27
+    lost-offset -1/60 column
+    lost-offset -5/13.2
     lost-column 1.6/3.9
-    height 100%
+    height 284px
+    width 600px
 
 .griddiv
-    lost-waffle 2/8 0 0
-    height 50%
+    position relative
+    lost-waffle 2/8 0 0 no-flex
+    height 141px
+    width 133.19px
     >.gridright
        position relative
+       white-space: nowrap
        left 20 px
        top 20 px
     >.gridleft
@@ -38,23 +51,27 @@
        top 20 px
     >.gridleft:nth-of-type(2)
         left -175 px
+    >.gridleft:nth-of-type(3)
+        left -399 px
+        white-space: nowrap;
 
 .gridcore
-    outline: #3E5258 dotted
+    outline: #3E5258 solid 3px
 
 
 .gridimage
     top 3.2px
+    left -1.7px
     position relative
-    lost-center 90% 5%
-    height 90%
-
-
-.link
-    position absolute
+    lost-center 95%
+    height 127px
 
 .link-jenkins
-    left -50px
-    top 350px
+    left 238px
+    top 430px
     font-size:23px
-
+    position relative
+    left -689px
+    top 400px
+    height 0px
+    lost-center 1px
