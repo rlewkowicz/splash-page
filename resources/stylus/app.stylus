@@ -50,7 +50,8 @@ html
        left 25 px
        top 20 px
     >.gridleft:nth-of-type(2)
-        left -175 px
+        white-space: nowrap
+        left -182.7 px
     >.gridleft:nth-of-type(3)
         left -399 px
         white-space: nowrap;

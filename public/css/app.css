@@ -105,7 +105,8 @@ html {
   top: 20px;
 }
 .griddiv >.gridleft:nth-of-type(2) {
-  left: -175px;
+  white-space: nowrap;
+  left: -182.7px;
 }
 .griddiv >.gridleft:nth-of-type(3) {
   left: -399px;
