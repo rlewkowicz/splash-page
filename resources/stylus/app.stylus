@@ -77,4 +77,4 @@ html
     lost-center 1px
 
 .link
-    z-index:90
+    z-index:1
