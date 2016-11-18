@@ -58,7 +58,6 @@ html
 .gridcore
     outline: #3E5258 solid 3px
 
-
 .gridimage
     top 3.2px
     left -1.7px
@@ -78,3 +77,14 @@ html
 
 .link
     z-index:1
+
+.mediawiki-core-row
+    lost-row 1/3
+    lost-offset 1/5 column
+
+.mediawiki-core-column
+    lost-column 1/4
+    lost-offset -3/3.9
+    >a
+        white-space: nowrap
+

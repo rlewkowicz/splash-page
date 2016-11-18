@@ -36,6 +36,12 @@
                         </div>
                     </div>
                 </div>
+                <div class="mediawiki-core-row">
+                    <div class="mediawiki-core-column">
+                        <a href='http://jenkins.binaryoasis.com/job/mediawiki-docker-stack'><img src='http://jenkins.binaryoasis.com/buildStatus/icon?job=mediawiki-docker-stack'></a>
+                        <a href="https://github.com/rlewkowicz/docker-mediawiki-stack">https://github.com/rlewkowicz/docker-mediawiki-stack</a>
+                    </div>
+                </div>
             </div>
         </section>
     </body>
