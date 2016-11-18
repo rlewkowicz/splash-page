@@ -75,3 +75,6 @@ html
     top 400px
     height 0px
     lost-center 1px
+
+.link
+    z-index:90

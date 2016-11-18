@@ -8,8 +8,8 @@
 </head>
     <body>
         <section class="main_section">
-            <div class="link link-jenkins">
-                <a href="http://jenkins.binaryoasis.com/">http://jenkins.binaryoasis.com/</a>
+            <div class="link-jenkins">
+                <a class="link" href="http://jenkins.binaryoasis.com/">http://jenkins.binaryoasis.com/</a>
             </div>
             <div class="main_div">
                 <div class="squarerow">
