@@ -16,7 +16,7 @@
                     <div class="squarecolumn">
                         <div class="griddiv">
                             <a class="gridleft" href='http://jenkins.binaryoasis.com/job/mediawiki-docker-phpfpm/'><img src='http://jenkins.binaryoasis.com/buildStatus/icon?job=mediawiki-docker-phpfpm'></a>
-                            <a class="gridleft" href='https://hub.docker.com/r/rlewkowicz/parsoid/'>https://hub.docker.com/r/rlewkowicz/parsoid/</a>
+                            <a class="gridleft" href='https://hub.docker.com/r/rlewkowicz/php-fpm/'>https://hub.docker.com/r/rlewkowicz/php-fpm/</a>
                             <a class="gridleft" href='https://github.com/rlewkowicz/docker-mediawiki-phpfpm/tree/master/7.0/alpine'>https://github.com/rlewkowicz/docker-mediawiki-phpfpm/tree/master/7.0/alpine</a>
                         </div>
                         <div class="griddiv gridcore"><img src="/assets/phpfpm.png" class="gridimage"> </img></div>
